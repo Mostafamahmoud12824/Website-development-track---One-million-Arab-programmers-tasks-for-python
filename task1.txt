@@ -1,0 +1,11 @@
+task1
+-----------------
+text = "again"
+def reverse(x):
+       #complete this function so that it takes string x as an input
+      #and returns its reverse 
+      str="" 
+      for i in x: 
+              str = i + str 
+      return str
+print("output: "+reverse(text))

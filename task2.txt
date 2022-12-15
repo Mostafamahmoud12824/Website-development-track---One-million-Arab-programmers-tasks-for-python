@@ -1,0 +1,6 @@
+//task2
+no_list= [10,20,30,40] 
+def average(x): 
+    avg =   sum(x) / len(x)
+    return avg 
+print(average(no_list))
